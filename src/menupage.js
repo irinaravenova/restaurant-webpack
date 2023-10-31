@@ -1,0 +1,5 @@
+function menuComponent() {
+
+}
+
+export { menuComponent };

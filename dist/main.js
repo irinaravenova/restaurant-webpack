@@ -1,0 +1,1 @@
+(()=>{"use strict";!function(){const e=document.querySelector("#content"),n=document.createElement("h1"),t=document.createElement("p");n.innerHTML="About Us",t.innerHTML="TeaBar was created by a group of tea lovers based in NYC.",e.appendChild(n),e.appendChild(t)}()})();
