@@ -1,24 +1,14 @@
 import { homepageComponent } from "./homepage";
 import { menuComponent } from "./menupage";
 import { aboutComponent } from "./aboutpage";
+import './style.css';
 
 document.addEventListener("DOMContentLoaded", function() {
-    // function body
-
-    // Write the tab-switching logic inside of index.js
-    // You should have event listeners for each tab
-    // that wipes out the current contents and
-    // then runs the correct ‘tab module’ to populate it again.
-
     const contentDiv = document.querySelector("#content")
 
-    // Create navbar div
     const navBar = document.createElement("div")
     navBar.className = "nav"
-
-    // Create contain
     
-    // Create menu tab buttons
     const homeTab = document.createElement("button")
     const menuTab = document.createElement("button")
     const aboutTab = document.createElement("button")
