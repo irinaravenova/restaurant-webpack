@@ -1,5 +1,6 @@
 function homepageComponent() {
-    const bodyContent = document.querySelector("#content");
+
+    const contentDiv = document.querySelector("#content")
 
     const image = document.createElement('img');
     const header = document.createElement('h1');
@@ -9,9 +10,9 @@ function homepageComponent() {
     header.innerHTML = "TeaBar";
     caption.innerHTML = "A lively yet comforting oasis for connoisseurs of quality tea.";
     
-    bodyContent.appendChild(image);
-    bodyContent.appendChild(header);
-    bodyContent.appendChild(caption);
+    contentDiv.appendChild(image);
+    contentDiv.appendChild(header);
+    contentDiv.appendChild(caption);
 }
 
 
