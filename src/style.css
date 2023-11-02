@@ -1,3 +1,45 @@
+* {
+  border-style: dotted;
+  border-width: 1px;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  grid-auto-flow: row;
+  justify-content: center;
+  justify-items: center;
+  grid-template-rows: 65px auto;
+}
+
 .nav {
-    background-color: lightpink;
-  }
+  width: 100vw;
+  border-style: dotted;
+  background-color: lightpink;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  gap: 20px;
+}
+
+button {
+    width: 100px;
+    height: 55px;
+    border-radius: 15px;
+}
+
+h1 {
+    position: sticky;
+}
+
+#content {
+    width: 70vw;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
